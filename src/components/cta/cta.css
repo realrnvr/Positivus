@@ -1,0 +1,143 @@
+.cta {
+    background-color: var(--clr-tertiary);
+    border-radius: 2em;
+    margin-top: 5.658125rem;
+}
+
+.cta__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 3.125rem;
+}
+
+.cta__title {
+    font-size: var(--fs-490);
+    font-weight: var(--fw-400);
+}
+
+.cta__description {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-300);
+    max-width: 28ch;
+}
+
+.cta__lg-screen {
+    display: none;
+}
+
+.cta__btn {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-200);
+}
+
+.cta__svg-wrapper {
+    display: none;
+}
+
+.cta__svg {
+    width: 359px;
+}
+
+/* Xs */
+/* @media (min-width: 320px) {} */
+
+/* Sm */
+@media (min-width: 425px) {
+    .cta__btn {
+        font-size: var(--fs-400);
+        padding-inline: 3.625rem;
+    }
+
+    .cta__description {
+        font-size: var(--fs-400);
+    }
+}
+
+/* Md */
+@media (min-width: 768px) {
+    .cta {
+        position: relative;
+    }
+
+    .cta__title {
+        font-size: var(--fs-495);
+    }
+
+    .cta__description {
+        font-weight: var(--fw-400);
+    }
+
+    .cta__sm-screen {
+        display: none;
+    }
+
+    .cta__lg-screen {
+        display: block;
+    }
+
+    .cta__btn {
+        width: fit-content;
+        font-size: var(--fs-400);
+    }
+
+    .cta__svg-wrapper {
+        display: block;
+        position: absolute;
+        right: 2%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .cta__svg {
+        width: 320px;
+    }
+}
+
+/* Lg */
+@media (min-width: 1024px) {
+    .cta {
+        padding-inline: 3.75rem;
+    }
+
+    .cta__content-wrapper {
+        padding: 3.75rem 0;
+        gap: 1.625rem;
+        margin-right: auto;
+    }
+
+    .cta__title {
+        font-size: var(--fs-500);
+        font-weight: var(--fw-500);
+    }
+
+    .cta__description {
+        font-size: var(--fs-400);
+        font-weight: var(--fw-400);
+        max-width: 44ch;
+    }
+
+    .cta__btn {
+        font-size: var(--fs-450);
+        width: fit-content;
+        padding-inline: 2.1875rem;
+    }
+
+    .cta__svg-wrapper {
+        right: 5%;
+    }
+
+    .cta__svg {
+        width: 359px;
+    }
+}
+
+/* Xl */
+@media (min-width: 1440px) {
+    .cta__svg-wrapper {
+        right: 10%;
+    }
+}
+
+/* 2Xl */
+/* @media (min-width: 2560px) {} */

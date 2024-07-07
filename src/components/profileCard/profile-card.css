@@ -1,0 +1,132 @@
+.profile-card {
+    padding: 2.5rem 2.5rem;
+    position: relative;
+    border-radius: 30px;
+}
+
+.profile-card__content-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.profile-card__pfp-svg-wrapper {
+    align-self: center;
+}
+
+.profile-card__pfp-svg {
+    height: 102.82;
+    width: 105.65px;
+}
+
+.profile-card__text-wrapper {
+    align-self: flex-end;
+}
+
+.profile-card__name {
+    font-size: var(--fs-400);
+    font-weight: var(--fw-400);
+}
+
+.profile-card__position {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-300);
+    letter-spacing: -0.04em;
+}
+
+.profile-card__linkedin-svg-wrapper {
+    display: block;
+}
+
+.profile-card__linkedin-svg {
+    max-width: 24px;
+}
+
+.profile-card__hr {
+    border: 1px solid var(--clr-secondary);
+    margin-block: 1.25rem;
+}
+
+.profile-card__description {
+    font-size: var(--fs-400);
+    letter-spacing: -0.05em;
+}
+
+/* Xs */
+/* @media (min-width: 320px) {} */
+
+/* Sm */
+@media (min-width: 425px) {
+    .profile-card__content-wrapper {
+        gap: 1.25rem;
+    }
+
+    .profile-card__pfp-svg-wrapper {
+        align-self: flex-start;
+    }
+
+    .profile-card__name {
+        font-size: var(--fs-470);
+    }
+
+    .profile-card__position {
+        font-size: var(--fs-400);
+    }
+
+    .profile-card__linkedin-svg-wrapper {
+        position: absolute;
+        top: 2.5rem;
+        right: 2.5rem;
+    }
+
+    .profile-card__linkedin-svg-wrapper {
+        display: block;
+    }
+
+    .profile-card__linkedin-svg {
+        max-width: 34px;
+    }
+}
+
+/* Md */
+@media (min-width: 768px) {
+    .profile-card__pfp-svg {
+        margin-top: 1rem;
+        width: 80.65px;
+    }
+
+    .profile-card__description {
+        letter-spacing: 0;
+    }
+
+}
+
+/* Lg */
+@media (min-width: 1024px) {
+    .profile-card__name {
+        font-size: var(--fs-490);
+    }
+
+    .profile-card__position {
+        font-size: var(--fs-400);
+        letter-spacing: 0;
+    }
+
+    .profile-card__pfp-svg {
+        margin-top: 0;
+        width: 105.65px;
+    }
+}
+
+/* Xl */
+@media (min-width: 1440px) {
+    .profile-card__name {
+        font-size: var(--fs-495);
+    }
+
+    .profile-card__position {
+        font-size: var(--fs-450);
+    }
+}
+
+/* 2Xl */
+/* @media (min-width: 2560px) {} */

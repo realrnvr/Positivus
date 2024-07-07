@@ -1,0 +1,48 @@
+.team___profile-card-container {
+    display: grid;
+    gap: 1.875rem;
+}
+
+.team__btn {
+    width: 100%;
+    padding: 1.25rem 4.75rem;
+    margin-top: 2.419375rem;
+    font-size: var(--fs-400);
+    font-weight: var(--fw-200);
+    display: block;
+    margin-left: auto;
+}
+
+/* Xs */
+/* @media (min-width: 320px) {} */
+
+/* Sm */
+/* @media (min-width: 425px) {} */
+
+/* Md */
+@media (min-width: 768px) {
+    .team___profile-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team__btn {
+        width: fit-content;
+    }
+}
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* Xl */
+@media (min-width: 1440px) {
+    .team___profile-card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team__btn {
+        font-size: var(--fs-450);
+    }
+}
+
+/* 2Xl */
+/* @media (min-width: 2560px) {} */

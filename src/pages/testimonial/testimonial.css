@@ -1,0 +1,5 @@
+.testimonial__slider-wrapper {
+    border-radius: 40px;
+    background-color: var(--clr-secondary);
+    padding-bottom: 3.75rem;
+}

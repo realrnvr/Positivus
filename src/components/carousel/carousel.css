@@ -1,0 +1,78 @@
+:root {
+    --duration: 15s;
+    --width: 124.11px;
+}
+
+.carousel>*+* {
+    margin-top: 0.5rem;
+}
+
+.carousel__svg-wrapper {
+    position: relative;
+    height: 2.88625rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes r-to-l {
+    to {
+        left: -124.11px;
+    }
+}
+
+.carousel__svg-r-to-l {
+    filter: grayscale(100%);
+    width: var(--width);
+    position: absolute;
+    left: max(calc(var(--width) * 3), 100%);
+    animation-name: r-to-l;
+    animation-duration: var(--duration);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: calc(var(--duration) / 3 * (3 - var(--n)) * -1);
+}
+
+@keyframes l-to-r {
+    to {
+        right: -124.11px;
+    }
+}
+
+.carousel__svg-l-to-r {
+    filter: grayscale(100%);
+    width: var(--width);
+    position: absolute;
+    right: max(calc(var(--width) * 3), 100%);
+    animation-name: l-to-r;
+    animation-duration: var(--duration);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: calc(var(--duration) / 3 * (3 - var(--n)) * -1);
+}
+
+/* Xs */
+/* @media (min-width: 320px) {} */
+
+/* Sm */
+@media (min-width: 425px) {
+    :root {
+        --width: 100.11px;
+    }
+}
+
+/* Md */
+/* @media (min-width: 768px) {} */
+
+/* Lg */
+@media (min-width: 1024px) {
+    .carousel {
+        display: none;
+    }
+}
+
+/* Xl */
+/* @media (min-width: 1440px) {} */
+
+/* 2Xl */
+/* @media (min-width: 2560px) {} */
