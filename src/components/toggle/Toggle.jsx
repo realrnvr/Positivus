@@ -25,7 +25,6 @@ const Toggle = (props) => {
             <div className="toggle__svg-btn-wrapper">
               <button onClick={toggleClick}>
                 <img
-                  loading="lazy"
                   style={toggle ? { display: "block" } : { display: "none" }}
                   className="toggle__svg-btn minus"
                   src="/minus-icon.svg"
