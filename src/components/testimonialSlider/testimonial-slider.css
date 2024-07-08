@@ -26,8 +26,7 @@
 
 .tslider__text-wrapper {
     margin-top: 0.9375rem;
-    margin-left: 0.9375rem;
-    text-align: left;
+    text-align: center;
 }
 
 .tslider__title {
@@ -125,6 +124,7 @@
     .tslider__text-wrapper {
         margin-top: 77px;
         margin-left: 55px;
+        text-align: left;
     }
 
     .swiper-button-prev,
