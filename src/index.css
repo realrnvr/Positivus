@@ -124,11 +124,11 @@ button {
 }
 
 /* Xs */
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
   .container {
     max-width: 320px;
   }
-}
+} */
 
 /* Sm */
 @media (min-width: 425px) {
