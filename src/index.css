@@ -22,10 +22,10 @@
   /* background color */
   --clr-bg-body: #fff;
   /* colors */
-  --clr-primary: #B9FF66;
-  --clr-secondary: #191A23;
+  --clr-primary: #b9ff66;
+  --clr-secondary: #191a23;
   /* 	--clr-secondary: rgb(25, 26, 35) */
-  --clr-tertiary: #F3F3F3;
+  --clr-tertiary: #f3f3f3;
   /* font sizes*/
   --fs-300: 0.9rem;
   --fs-400: 1rem;
@@ -70,6 +70,9 @@ html {
 body {
   font-family: var(--ff-family);
   background-color: var(--clr-bg-body);
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 img,
