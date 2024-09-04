@@ -1,150 +1,147 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__logo {
-    width: 8.5rem;
+  width: 8.5rem;
 }
 
 .header__nav-wrapper {
-    display: flex;
+  display: flex;
 }
 
 .header__nav-ul {
-    display: none;
-    align-items: center;
-    gap: 2rem;
+  display: none;
+  align-items: center;
+  gap: 2rem;
 }
 
 .header__nav-li {
-    list-style: none;
+  list-style: none;
 }
 
 .header__nav-link {
-    text-decoration: none;
-    color: var(--clr-secondary);
-    font-size: var(--fs-400);
-    font-weight: var(--fw-400);
-    text-transform: capitalize;
+  text-decoration: none;
+  color: var(--clr-secondary);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+  text-transform: capitalize;
 }
 
 .header__nav-btn {
-    border: 1px solid var(--clr-secondary);
-    font-size: var(--fs-400);
-    font-weight: var(--fw-400);
-    padding-block: 1.25rem;
-    padding-inline: 2rem;
-    border-radius: 0.9375rem;
-    background-color: transparent;
-    color: var(--clr-secondary);
+  border: 1px solid var(--clr-secondary);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+  padding-block: 1.25rem;
+  padding-inline: 2rem;
+  border-radius: 0.9375rem;
+  background-color: transparent;
+  color: var(--clr-secondary);
 }
 
-
 .header__ham-btn {
-    display: block;
-    z-index: 9999;
+  display: block;
+  z-index: 9999;
 }
 
 .header__hamburger {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 
 .mobile-nav__wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--clr-primary);
-    height: 100%;
-    width: 100%;
-    z-index: 999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--clr-primary);
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobile-nav {
-    text-align: center;
+  text-align: center;
 }
 
-
 .mobile-nav__ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .mobile-nav__link {
-    color: var(--clr-secondary);
-    font-size: var(--fs-450);
-    font-weight: var(--fw-300);
-    text-decoration: none;
+  color: var(--clr-secondary);
+  font-size: var(--fs-450);
+  font-weight: var(--fw-300);
+  text-decoration: none;
 }
 
 .mobile-nav-btn {
-    font-size: var(--fs-400);
-    font-weight: var(--fw-400);
-    padding-block: 1.25rem;
-    padding-inline: 2rem;
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+  padding-block: 1.25rem;
+  padding-inline: 2rem;
 }
 
 /* Xs */
-/* @media (min-width: 320px) {} */
+@media (min-width: 475px) {
+  .header__logo {
+    width: 9.5rem;
+  }
+}
 
 /* Sm */
-@media (min-width: 425px) {
-    .header__logo {
-        width: 9.5rem;
-    }
-}
+/* @media (min-width: 640px) {} */
 
 /* Md */
 @media (min-width: 768px) {
-    .header__logo {
-        width: 11rem;
-    }
+  .header__logo {
+    width: 11rem;
+  }
 }
 
 /* Lg */
 @media (min-width: 1024px) {
-    .header__logo {
-        width: 12rem;
-    }
+  .header__logo {
+    width: 12rem;
+  }
 
-    .header__nav-ul {
-        display: flex;
-    }
+  .header__nav-ul {
+    display: flex;
+  }
 
-    .header__nav-link {
-        font-size: var(--fs-450);
-    }
+  .header__nav-link {
+    font-size: var(--fs-450);
+  }
 
-    .header__nav-btn {
-        font-size: var(--fs-450);
-    }
+  .header__nav-btn {
+    font-size: var(--fs-450);
+  }
 
-    .header__ham-btn {
-        display: none;
-    }
+  .header__ham-btn {
+    display: none;
+  }
 }
 
 /* Xl */
-@media (min-width: 1440px) {
-    .header__logo {
-        width: 14rem;
-    }
-
-    .header__nav-link {
-        font-size: var(--fs-470);
-    }
-
-    .header__nav-btn {
-        font-size: var(--fs-470);
-    }
-
-}
+/* @media (min-width: 1280px) {} */
 
 /* 2Xl */
-/* @media (min-width: 2560px) {} */
+@media (min-width: 1440px) {
+  .header__logo {
+    width: 14rem;
+  }
+
+  .header__nav-link {
+    font-size: var(--fs-470);
+  }
+
+  .header__nav-btn {
+    font-size: var(--fs-470);
+  }
+}

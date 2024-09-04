@@ -47,6 +47,12 @@ const TestimonialSlider = () => {
             centeredSlides: true,
             loop: true,
           },
+          1280: {
+            slidesPerView: 1,
+            spaceBetween: -500,
+            centeredSlides: true,
+            loop: true,
+          },
           1440: {
             slidesPerView: 1,
             spaceBetween: -700,

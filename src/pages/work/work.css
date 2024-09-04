@@ -1,29 +1,29 @@
 .work__toggle-container {
-    margin-inline: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-    counter-set: toggle-count;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  counter-set: toggle-count;
 }
 
 /* Xs */
-/* @media (min-width: 320px) {} */
+/* @media (min-width: 475px) {} */
 
 /* Sm */
-/* @media (min-width: 425px) {} */
+/* @media (min-width: 640px) {} */
 
 /* Md */
 /* @media (min-width: 768px) {} */
 
 /* Lg */
 @media (min-width: 1024px) {
-    .work__toggle-container {
-        gap: 1.875rem;
-    }
+  .work__toggle-container {
+    gap: 1.875rem;
+  }
 }
 
 /* Xl */
-/* @media (min-width: 1440px) {} */
+/* @media (min-width: 1280px) {} */
 
 /* 2Xl */
-/* @media (min-width: 2560px) {} */
+/* @media (min-width: 1440px) {} */

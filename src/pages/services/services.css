@@ -1,28 +1,28 @@
 .services__card-container {
-    margin-inline: auto;
-    display: grid;
-    gap: 1.875rem;
-    justify-content: center;
+  margin-inline: auto;
+  display: grid;
+  gap: 1.875rem;
+  justify-content: center;
 }
 
 /* Xs */
-/* @media (min-width: 320px) {} */
+/* @media (min-width: 475px) {} */
 
 /* Sm */
-/* @media (min-width: 425px) {} */
+/* @media (min-width: 640px) {} */
 
 /* Md */
 @media (min-width: 768px) {
-    .services__card-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .services__card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Lg */
 /* @media (min-width: 1024px) {} */
 
 /* Xl */
-/* @media (min-width: 1440px) {} */
+/* @media (min-width: 1280px) {} */
 
 /* 2Xl */
-/* @media (min-width: 2560px) {} */
+/* @media (min-width: 1440px) {} */

@@ -1,5 +1,23 @@
 .testimonial__slider-wrapper {
-    border-radius: 40px;
-    background-color: var(--clr-secondary);
-    padding-bottom: 3.75rem;
+  border-radius: 40px;
+  background-color: var(--clr-secondary);
+  padding-bottom: 3.75rem;
 }
+
+/* Xs */
+/* @media (min-width: 475px) {} */
+
+/* Sm */
+/* @media (min-width: 640px) {} */
+
+/* Md */
+/* @media (min-width: 768px) {} */
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* Xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2Xl */
+/* @media (min-width: 1440px) {} */
