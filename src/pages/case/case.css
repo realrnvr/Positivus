@@ -29,6 +29,11 @@
   text-decoration: none;
 }
 
+.case__arrow {
+  width: 1.0825rem;
+  height: 1.0825rem;
+}
+
 .case__vr {
   height: 156px;
   width: 0.1px;

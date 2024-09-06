@@ -28,7 +28,8 @@
 }
 
 .card__svg-btn {
-  width: 2rem;
+  width: 2.5625rem;
+  height: 2.5625rem;
 }
 
 .card__svg-btn-label {
@@ -43,7 +44,7 @@
 }
 
 .card__svg-logo {
-  width: 165px;
+  width: 13.125rem;
 }
 
 /* Xs */

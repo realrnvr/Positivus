@@ -29,8 +29,8 @@
   color: #fff;
 }
 
-.mg-top {
-  margin-top: 1.875rem;
+.pd-top {
+  padding-top: 1.875rem;
 }
 
 .content-mg-top {
@@ -43,6 +43,16 @@
 
 .intro-content-gap {
   margin-top: 2.5rem;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .border_box-shadow {
@@ -77,8 +87,8 @@
     max-width: 1024px;
   }
 
-  .mg-top {
-    margin-top: 3.1285rem;
+  .pd-top {
+    padding-top: 3.1285rem;
   }
 
   .content-mg-top {
@@ -107,8 +117,8 @@
     max-width: 1440px;
   }
 
-  .mg-top {
-    margin-top: 4.0625rem;
+  .pd-top {
+    padding-top: 4.0625rem;
   }
 
   .content-mg-top {

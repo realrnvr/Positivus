@@ -26,7 +26,12 @@ const Case = () => {
               <a className="case__link" href="#">
                 <p>Learn more</p>
               </a>
-              <img loading="lazy" src="/arrow.svg" alt="Learn more" />
+              <img
+                className="case__arrow"
+                loading="lazy"
+                src="/arrow.svg"
+                alt="Learn more"
+              />
             </div>
           </div>
           <div className="case__vr"></div>
@@ -40,7 +45,12 @@ const Case = () => {
               <a className="case__link" href="#">
                 <p>Learn more</p>
               </a>
-              <img loading="lazy" src="/arrow.svg" alt="Learn more" />
+              <img
+                className="case__arrow"
+                loading="lazy"
+                src="/arrow.svg"
+                alt="Learn more"
+              />
             </div>
           </div>
           <div className="case__vr"></div>
@@ -54,7 +64,12 @@ const Case = () => {
               <a className="case__link" href="#">
                 <p>Learn more</p>
               </a>
-              <img loading="lazy" src="/arrow.svg" alt="Learn more" />
+              <img
+                className="case__arrow"
+                loading="lazy"
+                src="/arrow.svg"
+                alt="Learn more"
+              />
             </div>
           </div>
         </div>

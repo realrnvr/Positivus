@@ -21,13 +21,13 @@ const Header = () => {
   }, [menu]);
   return (
     <>
-      <header className="header | container mg-top">
+      <header className="header | container pd-top">
         <div aria-label="positivus">
           <a href="#">
             <img
               className="header__logo"
               src={logo}
-              alt=""
+              alt="Positivus"
               aria-hidden="true"
             />
           </a>

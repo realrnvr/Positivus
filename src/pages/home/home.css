@@ -7,8 +7,8 @@
 }
 
 .hero__svg {
-  width: 22.59rem;
-  height: 22.59rem;
+  height: 32.1875rem;
+  width: 37.52875rem;
   margin-inline: auto;
 }
 
@@ -36,6 +36,7 @@
 }
 
 .hero__carousel-logo {
+  height: 3rem;
   width: 7.756875rem;
   filter: grayscale(100%);
 }

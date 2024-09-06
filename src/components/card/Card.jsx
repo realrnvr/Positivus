@@ -35,7 +35,7 @@ const Card = (props) => {
           <img
             loading="lazy"
             className="card__svg-logo"
-            style={{ width: props.card.imgWidth }}
+            style={{ height: props.card.imgHeight }}
             src={props.card.imgSrc}
             alt={props.card.imgAlt}
             aria-hidden="true"

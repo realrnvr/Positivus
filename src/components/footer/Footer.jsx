@@ -6,6 +6,7 @@ const Footer = () => {
   const clickSubmit = (e) => {
     e.preventDefault();
   };
+
   return (
     <footer className="footer footer-container | section-mg-top">
       <div className="footer__container-wrapper">
