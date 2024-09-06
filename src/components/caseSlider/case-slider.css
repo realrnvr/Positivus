@@ -34,6 +34,11 @@
   text-decoration: none;
 }
 
+.lider__arrow-svg {
+  width: 1.0825rem;
+  height: 1.0825rem;
+}
+
 /* Xs */
 @media (min-width: 475px) {
   .slider {

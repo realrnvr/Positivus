@@ -32,7 +32,11 @@ const Slider = () => {
               <a className="slider__link" href="#">
                 <p>Learn more</p>
               </a>
-              <img src="/arrow.svg" alt="learn more" />
+              <img
+                classname="slider__arrow-svg"
+                src="/arrow.svg"
+                alt="learn more"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -47,7 +51,11 @@ const Slider = () => {
               <a className="slider__link" href="#">
                 <p>Learn more</p>
               </a>
-              <img src="/arrow.svg" alt="learn more" />
+              <img
+                classname="slider__arrow-svg"
+                src="/arrow.svg"
+                alt="learn more"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -62,7 +70,11 @@ const Slider = () => {
               <a className="slider__link" href="#">
                 <p>Learn more</p>
               </a>
-              <img src="/arrow.svg" alt="learn more" />
+              <img
+                classname="slider__arrow-svg"
+                src="/arrow.svg"
+                alt="learn more"
+              />
             </div>
           </div>
         </SwiperSlide>

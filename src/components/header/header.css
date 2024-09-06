@@ -49,6 +49,7 @@
 
 .header__hamburger {
   width: 1.5rem;
+  aspect-ratio: 1 / 1;
 }
 
 .mobile-nav__wrapper {
