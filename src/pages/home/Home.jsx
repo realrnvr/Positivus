@@ -1,4 +1,5 @@
 import React from "react";
+import "./home.css";
 import {
   frame,
   amazon,
@@ -8,7 +9,6 @@ import {
   netflix,
   zoom,
 } from "../../assets/svgImports.js";
-import "./home.css";
 
 const Home = () => {
   return (

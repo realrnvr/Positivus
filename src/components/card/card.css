@@ -44,7 +44,8 @@
 }
 
 .card__svg-logo {
-  width: 13.125rem;
+  height: 7.279375rem;
+  width: 10.3125rem;
 }
 
 /* Xs */
@@ -104,7 +105,8 @@
   }
 
   .card__svg-logo {
-    width: 210px;
+    height: 9.22625rem;
+    width: 13.125rem;
   }
 
   .card__svg-btn-label {

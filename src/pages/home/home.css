@@ -7,8 +7,8 @@
 }
 
 .hero__svg {
-  height: 32.1875rem;
-  width: 37.52875rem;
+  width: 22.59rem;
+  height: 19.375rem;
   margin-inline: auto;
 }
 
@@ -84,6 +84,7 @@
   }
 
   .hero__svg {
+    height: 32.1875rem;
     width: 37.52875rem;
     margin-top: 0;
     place-self: center;

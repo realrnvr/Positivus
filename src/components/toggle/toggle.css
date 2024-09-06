@@ -46,7 +46,8 @@
 }
 
 .toggle__svg-btn {
-  max-width: 30px;
+  width: 30px;
+  aspect-ratio: 1 / 1;
 }
 
 .toggle__hr {
@@ -89,7 +90,7 @@
   }
 
   .toggle__svg-btn {
-    max-width: 58px;
+    width: 58px;
   }
 }
 

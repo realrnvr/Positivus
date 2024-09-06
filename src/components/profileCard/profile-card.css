@@ -14,8 +14,8 @@
 }
 
 .profile-card__pfp-svg {
-  height: 102.82;
-  width: 105.65px;
+  width: 102.82px;
+  aspect-ratio: 1 / 1;
 }
 
 .profile-card__text-wrapper {
@@ -38,7 +38,8 @@
 }
 
 .profile-card__linkedin-svg {
-  max-width: 24px;
+  width: 24px;
+  aspect-ratio: 1 / 1;
 }
 
 .profile-card__hr {
@@ -80,7 +81,7 @@
   }
 
   .profile-card__linkedin-svg {
-    max-width: 34px;
+    width: 34px;
   }
 }
 
@@ -91,7 +92,6 @@
 @media (min-width: 768px) {
   .profile-card__pfp-svg {
     margin-top: 1rem;
-    width: 80.65px;
   }
 
   .profile-card__description {
@@ -112,7 +112,6 @@
 
   .profile-card__pfp-svg {
     margin-top: 0;
-    width: 105.65px;
   }
 }
 

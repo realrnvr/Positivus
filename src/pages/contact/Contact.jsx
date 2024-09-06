@@ -122,7 +122,7 @@ const Contact = () => {
               loading="lazy"
               className="contact__illustration-svg"
               src="/Illustration-cropped.svg"
-              alt=""
+              alt="Illustration"
               aria-hidden="true"
             />
           </div>

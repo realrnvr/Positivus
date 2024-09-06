@@ -77,7 +77,9 @@ const Header = () => {
               onClick={handelClick}
               src={hamburger}
               alt="Menu"
+              aria-hidden="true"
             />
+            <span className="visually-hidden">Menu</span>
           </button>
         </div>
       </header>
