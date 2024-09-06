@@ -74,6 +74,11 @@
   top: 473px;
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
 .custom-pagination-bullet svg {
   fill: #fff;
   width: 100%;

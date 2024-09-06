@@ -45,7 +45,6 @@
   --ff-family: "Space Grotesk", sans-serif;
 
   /* colors */
-
   --clr-bg-body: #fff;
   --clr-primary: #b9ff66;
   --clr-secondary: #191a23;
@@ -117,8 +116,11 @@ button {
   cursor: pointer;
 }
 
-/* Scrollbar */
+a {
+  text-decoration: none;
+}
 
+/* Scrollbar */
 body::-webkit-scrollbar {
   width: 8px;
 }
