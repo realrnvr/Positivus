@@ -20,9 +20,9 @@ const CTA = () => {
       </div>
       <div className="cta__svg-wrapper">
         <img
-          loading="lazy"
-          className="cta__svg"
-          src={illustration}
+          className="cta__svg lz-loading loading"
+          src="/1px.webp"
+          data-src={illustration}
           alt="Call to action"
           aria-hidden="true"
         />

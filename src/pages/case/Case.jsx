@@ -28,9 +28,9 @@ const Case = () => {
               </a>
               <img
                 className="case__arrow"
-                loading="lazy"
                 src="/arrow.svg"
                 alt="Learn more"
+                aria-hidden="true"
               />
             </div>
           </div>
@@ -47,9 +47,9 @@ const Case = () => {
               </a>
               <img
                 className="case__arrow"
-                loading="lazy"
                 src="/arrow.svg"
                 alt="Learn more"
+                aria-hidden="true"
               />
             </div>
           </div>
@@ -66,9 +66,9 @@ const Case = () => {
               </a>
               <img
                 className="case__arrow"
-                loading="lazy"
                 src="/arrow.svg"
                 alt="Learn more"
+                aria-hidden="true"
               />
             </div>
           </div>

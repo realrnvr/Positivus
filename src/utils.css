@@ -55,6 +55,15 @@
   width: 1px;
 }
 
+.loading {
+  filter: blur(40px) grayscale(100%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.7s ease-in-out;
+}
+
 .border_box-shadow {
   border: 1px solid var(--clr-secondary);
   box-shadow: 0 6px 0 rgba(25, 26, 35, 1);

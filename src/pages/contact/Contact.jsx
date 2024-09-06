@@ -29,21 +29,29 @@ const Contact = () => {
                 <div className="contact__radio">
                   <button type="button" onClick={toggleRadio}>
                     {radio ? (
-                      <img
-                        loading="lazy"
-                        className="contact__radio-svg"
-                        id="say-hi"
-                        src="/radio-button.svg"
-                        alt="Say Hi"
-                      />
+                      <>
+                        <img
+                          className="contact__radio-svg"
+                          id="say-hi"
+                          src="/radio-button.svg"
+                          alt="radio"
+                        />
+                        <span className="visually-hidden">
+                          Selected to Say Hi
+                        </span>
+                      </>
                     ) : (
-                      <img
-                        loading="lazy"
-                        className="contact__radio-svg"
-                        id="say-hi"
-                        src="/radio-button-null.svg"
-                        alt="Get a Quote"
-                      />
+                      <>
+                        <img
+                          className="contact__radio-svg"
+                          id="say-hi"
+                          src="/radio-button-null.svg"
+                          alt="radio"
+                        />
+                        <span className="visually-hidden">
+                          Selected NOT to Say Hi
+                        </span>
+                      </>
                     )}
                   </button>
                   <label className="contact__label" htmlFor="say-hi">
@@ -53,21 +61,29 @@ const Contact = () => {
                 <div className="contact__radio">
                   <button type="button" onClick={toggleRadio}>
                     {radio ? (
-                      <img
-                        loading="lazy"
-                        className="contact__radio-svg"
-                        id="say-hi"
-                        src="/radio-button-null.svg"
-                        alt="radio"
-                      />
+                      <>
+                        <img
+                          className="contact__radio-svg"
+                          id="get-a-quote"
+                          src="/radio-button-null.svg"
+                          alt="radio"
+                        />
+                        <span className="visually-hidden">
+                          Selected NOT to Get a Quote
+                        </span>
+                      </>
                     ) : (
-                      <img
-                        loading="lazy"
-                        className="contact__radio-svg"
-                        id="say-hi"
-                        src="/radio-button.svg"
-                        alt="radio"
-                      />
+                      <>
+                        <img
+                          className="contact__radio-svg"
+                          id="get-a-quote"
+                          src="/radio-button.svg"
+                          alt="radio"
+                        />
+                        <span className="visually-hidden">
+                          Selected to Get a Quote
+                        </span>
+                      </>
                     )}
                   </button>
                   <label className="contact__label" htmlFor="get-quote">
@@ -119,9 +135,9 @@ const Contact = () => {
           </div>
           <div className="contact__illustration-svg-wrapper">
             <img
-              loading="lazy"
-              className="contact__illustration-svg"
-              src="/Illustration-cropped.svg"
+              className="contact__illustration-svg lz-loading loading"
+              src="/1px.webp"
+              data-src="/Illustration-cropped.svg"
               alt="Illustration"
               aria-hidden="true"
             />

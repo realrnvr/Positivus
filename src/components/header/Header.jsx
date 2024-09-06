@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { logo, hamburger } from "../../assets/svgImports.js";
+import { logo, hamburger, closeHam } from "../../assets/svgImports.js";
 import "./header.css";
 
 const Header = () => {
@@ -19,19 +19,19 @@ const Header = () => {
       document.body.style.overflowY = "auto";
     }
   }, [menu]);
+
   return (
     <>
       <header className="header | container pd-top">
-        <div aria-label="positivus">
-          <a href="#">
-            <img
-              className="header__logo"
-              src={logo}
-              alt="Positivus"
-              aria-hidden="true"
-            />
-          </a>
-        </div>
+        <a href="/">
+          <img
+            className="header__logo"
+            src={logo}
+            alt="Positivus"
+            aria-hidden="true"
+          />
+          <span className="visually-hidden">Go to Positivus</span>
+        </a>
         <div className="header__nav-wrapper">
           <nav aria-label="Main Navigation">
             <ul className="header__nav-ul">
@@ -72,14 +72,29 @@ const Header = () => {
             aria-label="navigation button"
             aria-expanded="false"
           >
-            <img
-              className="header__hamburger"
-              onClick={handelClick}
-              src={hamburger}
-              alt="Menu"
-              aria-hidden="true"
-            />
-            <span className="visually-hidden">Menu</span>
+            {menu ? (
+              <>
+                <img
+                  className="header__hamburger"
+                  onClick={handelClick}
+                  src={closeHam}
+                  alt="Menu"
+                  aria-hidden="true"
+                />
+                <span className="visually-hidden">Close Menu</span>
+              </>
+            ) : (
+              <>
+                <img
+                  className="header__hamburger"
+                  onClick={handelClick}
+                  src={hamburger}
+                  alt="Menu"
+                  aria-hidden="true"
+                />
+                <span className="visually-hidden">Open Menu</span>
+              </>
+            )}
           </button>
         </div>
       </header>

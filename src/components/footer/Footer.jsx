@@ -11,16 +11,10 @@ const Footer = () => {
     <footer className="footer footer-container | section-mg-top">
       <div className="footer__container-wrapper">
         <div className="footer__header-wrapper">
-          <div>
-            <a href="#">
-              <img
-                loading="lazy"
-                className="footer__svg-logo"
-                src={logo}
-                alt="Positivus"
-              />
-            </a>
-          </div>
+          <a className="footer__svg-logo-wrapper" href="/">
+            <img className="footer__svg-logo" src={logo} alt="Positivus" />
+            <span className="visually-hidden">Go to Positivus</span>
+          </a>
           <div>
             <nav>
               <ul className="footer__ul">
@@ -56,38 +50,38 @@ const Footer = () => {
             <div>
               <a href="#">
                 <img
-                  loading="lazy"
                   className="footer__social-svg"
                   src="/icon-1.svg"
                   alt="Linkedin"
                 />
+                <span className="visually-hidden">Go to Linkedin</span>
               </a>
             </div>
             <div>
               <a href="#">
                 <img
-                  loading="lazy"
                   className="footer__social-svg"
                   src="/icon-2.svg"
                   alt="Facebook"
                 />
+                <span className="visually-hidden">Go to Linkedin</span>
               </a>
             </div>
             <div>
               <a href="#">
                 <img
-                  loading="lazy"
                   className="footer__social-svg"
                   src="/icon-3.svg"
                   alt="Twitter"
                 />
+                <span className="visually-hidden">Go to Linkedin</span>
               </a>
             </div>
           </div>
         </div>
         <div className="footer__contact-container">
           <div className="footer__text-wrapper">
-            <h4 className="footer__title">Contact us:</h4>
+            <p className="footer__title">Contact us:</p>
             <p className="footer__info">Email: info@positivus.com</p>
             <p className="footer__info">Phone: 555-567-8901</p>
             <p className="footer__info">
@@ -107,31 +101,31 @@ const Footer = () => {
           <div>
             <a href="#">
               <img
-                loading="lazy"
                 className="footer__social-svg"
                 src="/icon-1.svg"
                 alt="Linkedin icon"
               />
+              <span className="visually-hidden">Go to Linkedin</span>
             </a>
           </div>
           <div>
             <a href="#">
               <img
-                loading="lazy"
                 className="footer__social-svg"
                 src="/icon-2.svg"
                 alt="Facebook icon"
               />
+              <span className="visually-hidden">Go to Linkedin</span>
             </a>
           </div>
           <div>
             <a href="#">
               <img
-                loading="lazy"
                 className="footer__social-svg"
                 src="/icon-3.svg"
                 alt="Twitter logo"
               />
+              <span className="visually-hidden">Go to Linkedin</span>
             </a>
           </div>
         </div>

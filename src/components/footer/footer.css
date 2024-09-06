@@ -8,6 +8,12 @@
   margin-top: 2.3125rem;
 }
 
+.footer__svg-logo-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__svg-logo {
   margin-inline: auto;
   filter: invert(100%);

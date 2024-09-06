@@ -24,19 +24,25 @@ const Toggle = (props) => {
             </div>
             <div className="toggle__svg-btn-wrapper">
               <button onClick={toggleClick}>
-                <img
-                  style={toggle ? { display: "block" } : { display: "none" }}
-                  className="toggle__svg-btn minus"
-                  src="/minus-icon.svg"
-                  alt="Drop down"
-                />
-                <img
-                  loading="lazy"
-                  style={toggle ? { display: "none" } : { display: "block" }}
-                  className="toggle__svg-btn plus"
-                  src="/plus-icon.svg"
-                  alt="Drop down"
-                />
+                {toggle ? (
+                  <>
+                    <img
+                      className="toggle__svg-btn minus"
+                      src="/minus-icon.svg"
+                      alt="Minus"
+                    />
+                    <span className="visually-hidden">Close Drop Down</span>
+                  </>
+                ) : (
+                  <>
+                    <img
+                      className="toggle__svg-btn plus"
+                      src="/plus-icon.svg"
+                      alt="Plus"
+                    />
+                    <span className="visually-hidden">Drop Down</span>
+                  </>
+                )}
               </button>
             </div>
           </div>

@@ -73,7 +73,7 @@ const TestimonialSlider = () => {
                 presence."
               </p>
               <div className="tslider__text-wrapper">
-                <h5 className="tslider__title">John Smith</h5>
+                <p className="tslider__title">John Smith</p>
                 <p className="tslider__position">
                   Marketing Director at XYZ Corp
                 </p>
@@ -93,7 +93,7 @@ const TestimonialSlider = () => {
                 presence."
               </p>
               <div className="tslider__text-wrapper">
-                <h5 className="tslider__title">John Smith</h5>
+                <p className="tslider__title">John Smith</p>
                 <p className="tslider__position">
                   Marketing Director at XYZ Corp
                 </p>
@@ -113,7 +113,7 @@ const TestimonialSlider = () => {
                 presence."
               </p>
               <div className="tslider__text-wrapper">
-                <h5 className="tslider__title">John Smith</h5>
+                <p className="tslider__title">John Smith</p>
                 <p className="tslider__position">
                   Marketing Director at XYZ Corp
                 </p>
@@ -133,7 +133,7 @@ const TestimonialSlider = () => {
                 presence."
               </p>
               <div className="tslider__text-wrapper">
-                <h5 className="tslider__title">John Smith</h5>
+                <p className="tslider__title">John Smith</p>
                 <p className="tslider__position">
                   Marketing Director at XYZ Corp
                 </p>
@@ -153,7 +153,7 @@ const TestimonialSlider = () => {
                 presence."
               </p>
               <div className="tslider__text-wrapper">
-                <h5 className="tslider__title">John Smith</h5>
+                <p className="tslider__title">John Smith</p>
                 <p className="tslider__position">
                   Marketing Director at XYZ Corp
                 </p>
@@ -161,10 +161,7 @@ const TestimonialSlider = () => {
             </div>
           </div>
         </SwiperSlide>
-        {/* Add Pagination */}
         <div className="swiper-pagination"></div>
-
-        {/* Add Navigation */}
         <div className="swiper-button-prev slider__prev">
           <img src="/next.svg" alt="Previous slide" />
         </div>
