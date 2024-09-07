@@ -33,7 +33,7 @@ const Slider = () => {
                 <p>Learn more</p>
               </a>
               <img
-                classname="slider__arrow-svg"
+                className="slider__arrow-svg"
                 src="/arrow.svg"
                 alt="learn more"
               />
@@ -52,7 +52,7 @@ const Slider = () => {
                 <p>Learn more</p>
               </a>
               <img
-                classname="slider__arrow-svg"
+                className="slider__arrow-svg"
                 src="/arrow.svg"
                 alt="learn more"
               />
@@ -71,7 +71,7 @@ const Slider = () => {
                 <p>Learn more</p>
               </a>
               <img
-                classname="slider__arrow-svg"
+                className="slider__arrow-svg"
                 src="/arrow.svg"
                 alt="learn more"
               />
