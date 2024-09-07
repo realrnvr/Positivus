@@ -98,6 +98,7 @@ html {
 
 body {
   font-family: var(--ff-family);
+  font-size: var(--fs-400);
   background-color: var(--clr-bg-body);
 }
 

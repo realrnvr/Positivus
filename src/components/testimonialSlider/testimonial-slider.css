@@ -10,7 +10,7 @@
 }
 
 .tslider__item {
-  color: #fff;
+  color: var(--clr-bg-body);
 }
 
 .tslider__description {
@@ -85,7 +85,7 @@ img[src="/next.svg"] {
 }
 
 .custom-pagination-bullet svg {
-  fill: #fff;
+  fill: var(--clr-bg-body);
   width: 100%;
   height: 100%;
 }
