@@ -1,6 +1,8 @@
 import React from "react";
 import Intro from "../../components/intro/Intro";
-import TestimonialSlider from "../../components/testimonialSlider/TestimonialSlider";
+const TestimonialSlider = React.lazy(() =>
+  import("../../components/testimonialSlider/TestimonialSlider")
+);
 import { introData } from "../../assets/introData";
 
 import "./testimonial.css";
