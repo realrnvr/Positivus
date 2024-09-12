@@ -22,7 +22,7 @@ const App = () => {
           let img = entry.target;
           img.src = img.dataset.src;
           img.classList.remove("loading");
-          img.classList.remove("loaded");
+          img.classList.add("loaded");
           observer.unobserve(img);
         }
       });
