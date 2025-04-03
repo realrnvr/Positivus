@@ -1,6 +1,5 @@
-import React from "react";
-import { logo } from "../../assets/svgImports";
 import "./footer.css";
+import { logo } from "../../assets/svgImports";
 
 const Footer = () => {
   const clickSubmit = (e) => {

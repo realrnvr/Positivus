@@ -1,12 +1,11 @@
-import React from "react";
-import { illustration } from "../../assets/svgImports";
 import "./cta.css";
+import { illustration } from "../../assets/svgImports";
 
-const CTA = () => {
+export default function CTA() {
   return (
     <div className="cta">
       <div className="cta__content-wrapper">
-        <h3 className="cta__title">Let's make things happen</h3>
+        <h3 className="cta__title">Let&apos;s make things happen</h3>
         <p className="cta__description">
           Contact us today to learn more about how our digital marketing
           services can help your business grow and succeed online.
@@ -21,7 +20,7 @@ const CTA = () => {
       <div className="cta__svg-wrapper">
         <img
           className="cta__svg lz-loading loading"
-          src="/1px.webp"
+          src="/t-1px.webp"
           data-src={illustration}
           alt="Call to action"
           aria-hidden="true"
@@ -29,6 +28,4 @@ const CTA = () => {
       </div>
     </div>
   );
-};
-
-export default CTA;
+}

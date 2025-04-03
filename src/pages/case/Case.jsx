@@ -1,8 +1,7 @@
-import React from "react";
+import "./case.css";
+import { introData } from "../../assets/introData";
 import Intro from "../../components/intro/Intro";
 import CaseSlider from "../../components/caseSlider/CaseSlider";
-import { introData } from "../../assets/introData";
-import "./case.css";
 
 const Case = () => {
   return (

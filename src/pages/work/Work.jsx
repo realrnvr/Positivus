@@ -1,9 +1,8 @@
-import React from "react";
-import Intro from "../../components/intro/Intro";
-import Toggle from "../../components/toggle/Toggle";
+import "./work.css";
 import { introData } from "../../assets/introData";
 import { toggleData } from "../../assets/toggleData";
-import "./work.css";
+import Intro from "../../components/intro/Intro";
+import Toggle from "../../components/toggle/Toggle";
 
 const Work = () => {
   return (

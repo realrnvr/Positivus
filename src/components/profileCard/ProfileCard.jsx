@@ -1,5 +1,5 @@
-import React from "react";
 import "./profile-card.css";
+import PropTypes from "prop-types";
 
 const ProfileCard = (props) => {
   return (
@@ -9,7 +9,7 @@ const ProfileCard = (props) => {
           <div className="profile-card__pfp-svg-wrapper">
             <img
               className="profile-card__pfp-svg lz-loading loading"
-              src="/1px.webp"
+              src="/t-1px.webp"
               data-src={props.card.profileImg}
               alt={props.card.profileImgAlt}
             />
@@ -35,6 +35,10 @@ const ProfileCard = (props) => {
       </div>
     </div>
   );
+};
+
+ProfileCard.propTypes = {
+  card: PropTypes.object,
 };
 
 export default ProfileCard;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { logo, hamburger, closeHam } from "../../assets/svgImports.js";
 import "./header.css";
 

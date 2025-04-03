@@ -1,9 +1,8 @@
-import React from "react";
+import "./team.css";
 import Intro from "../../components/intro/Intro";
 import ProfileCard from "../../components/profileCard/ProfileCard";
 import { introData } from "../../assets/introData";
 import { profileCardData } from "../../assets/profileCardData";
-import "./team.css";
 
 const Team = () => {
   return (

@@ -1,5 +1,5 @@
-import React from "react";
 import "./intro.css";
+import PropTypes from "prop-types";
 
 const Intro = (props) => {
   return (
@@ -10,6 +10,10 @@ const Intro = (props) => {
       </p>
     </div>
   );
+};
+
+Intro.propTypes = {
+  intro: PropTypes.object,
 };
 
 export default Intro;

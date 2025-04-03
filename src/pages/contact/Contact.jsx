@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import Intro from "../../components/intro/Intro";
-import { introData } from "../../assets/introData";
 import "./contact.css";
+import { useState } from "react";
+import { introData } from "../../assets/introData";
+import Intro from "../../components/intro/Intro";
 
 const Contact = () => {
   const [radio, setRadio] = useState(true);
@@ -136,7 +136,7 @@ const Contact = () => {
           <div className="contact__illustration-svg-wrapper">
             <img
               className="contact__illustration-svg lz-loading loading"
-              src="/1px.webp"
+              src="/t-1px.webp"
               data-src="/Illustration-cropped.svg"
               alt="Illustration"
               aria-hidden="true"

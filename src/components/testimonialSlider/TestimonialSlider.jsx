@@ -63,12 +63,12 @@ const TestimonialSlider = () => {
           <div className="tslider__item-wrapper">
             <div className="tslider__item">
               <p className="tslider__description">
-                "We have been working with Positivus for the past year and have
-                seen a significant increase in website traffic and leads as a
-                result of their efforts. The team is professional, responsive,
+                &quot;We have been working with Positivus for the past year and
+                have seen a significant increase in website traffic and leads as
+                a result of their efforts. The team is professional, responsive,
                 and truly cares about the success of our business. We highly
                 recommend Positivus to any company looking to grow their online
-                presence."
+                presence.&quot;
               </p>
               <div className="tslider__text-wrapper">
                 <p className="tslider__title">John Smith</p>
@@ -83,12 +83,12 @@ const TestimonialSlider = () => {
           <div className="tslider__item-wrapper">
             <div className="tslider__item">
               <p className="tslider__description">
-                "We have been working with Positivus for the past year and have
-                seen a significant increase in website traffic and leads as a
-                result of their efforts. The team is professional, responsive,
+                &quot;We have been working with Positivus for the past year and
+                have seen a significant increase in website traffic and leads as
+                a result of their efforts. The team is professional, responsive,
                 and truly cares about the success of our business. We highly
                 recommend Positivus to any company looking to grow their online
-                presence."
+                presence.&quot;
               </p>
               <div className="tslider__text-wrapper">
                 <p className="tslider__title">John Smith</p>
@@ -103,12 +103,12 @@ const TestimonialSlider = () => {
           <div className="tslider__item-wrapper">
             <div className="tslider__item">
               <p className="tslider__description">
-                "We have been working with Positivus for the past year and have
-                seen a significant increase in website traffic and leads as a
-                result of their efforts. The team is professional, responsive,
+                &quot;We have been working with Positivus for the past year and
+                have seen a significant increase in website traffic and leads as
+                a result of their efforts. The team is professional, responsive,
                 and truly cares about the success of our business. We highly
                 recommend Positivus to any company looking to grow their online
-                presence."
+                presence.&quot;
               </p>
               <div className="tslider__text-wrapper">
                 <p className="tslider__title">John Smith</p>
@@ -123,12 +123,12 @@ const TestimonialSlider = () => {
           <div className="tslider__item-wrapper">
             <div className="tslider__item">
               <p className="tslider__description">
-                "We have been working with Positivus for the past year and have
-                seen a significant increase in website traffic and leads as a
-                result of their efforts. The team is professional, responsive,
+                &quot;We have been working with Positivus for the past year and
+                have seen a significant increase in website traffic and leads as
+                a result of their efforts. The team is professional, responsive,
                 and truly cares about the success of our business. We highly
                 recommend Positivus to any company looking to grow their online
-                presence."
+                presence.&quot;
               </p>
               <div className="tslider__text-wrapper">
                 <p className="tslider__title">John Smith</p>
@@ -143,12 +143,12 @@ const TestimonialSlider = () => {
           <div className="tslider__item-wrapper">
             <div className="tslider__item">
               <p className="tslider__description">
-                "We have been working with Positivus for the past year and have
-                seen a significant increase in website traffic and leads as a
-                result of their efforts. The team is professional, responsive,
+                &quot;We have been working with Positivus for the past year and
+                have seen a significant increase in website traffic and leads as
+                a result of their efforts. The team is professional, responsive,
                 and truly cares about the success of our business. We highly
                 recommend Positivus to any company looking to grow their online
-                presence."
+                presence.&quot;
               </p>
               <div className="tslider__text-wrapper">
                 <p className="tslider__title">John Smith</p>

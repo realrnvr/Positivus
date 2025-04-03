@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import PropTypes from "prop-types";
 import "./toggle.css";
+import { useState } from "react";
 
 const Toggle = (props) => {
   const [toggle, setToggle] = useState(false);
@@ -57,6 +58,10 @@ const Toggle = (props) => {
       </ul>
     </div>
   );
+};
+
+Toggle.propTypes = {
+  toggle: PropTypes.object,
 };
 
 export default Toggle;

@@ -1,6 +1,6 @@
-import React from "react";
-import { group } from "../../assets/svgImports";
 import "./card.css";
+import { group } from "../../assets/svgImports";
+import PropTypes from "prop-types";
 
 const Card = (props) => {
   return (
@@ -40,7 +40,7 @@ const Card = (props) => {
           <img
             className="card__svg-logo lz-loading loading"
             data-src={props.card.imgSrc}
-            src="/1px.webp"
+            src="/t-1px.webp"
             alt={props.card.imgAlt}
             aria-hidden="true"
           />
@@ -48,6 +48,10 @@ const Card = (props) => {
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  card: PropTypes.object,
 };
 
 export default Card;

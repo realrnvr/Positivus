@@ -1,4 +1,4 @@
-import React from "react";
+import "./carousel.css";
 import {
   amazon,
   dribblbe,
@@ -7,7 +7,6 @@ import {
   netflix,
   zoom,
 } from "../../assets/svgImports.js";
-import "./carousel.css";
 
 const Carousel = () => {
   return (

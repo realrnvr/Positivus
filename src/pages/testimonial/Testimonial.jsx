@@ -1,10 +1,10 @@
-import React, { lazy } from "react";
+import "./testimonial.css";
+import { lazy } from "react";
+import { introData } from "../../assets/introData";
 import Intro from "../../components/intro/Intro";
 const TestimonialSlider = lazy(() =>
   import("../../components/testimonialSlider/TestimonialSlider")
 );
-import { introData } from "../../assets/introData";
-import "./testimonial.css";
 
 const Testimonials = () => {
   return (
